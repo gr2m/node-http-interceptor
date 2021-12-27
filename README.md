@@ -65,6 +65,11 @@ Remove an event listener.
 
 Removes all event listeners for the given event. Or when called without the `event` argument, remove all listeners for all events.
 
+## See also
+
+- [`@gr2m/net-interceptor`](https://github.com/gr2m/node-net-interceptor) - Intercept outgoing network TCP/TLS connections
+- [`@gr2m/http-recorder`](https://github.com/gr2m/node-http-recorder) - Library agnostic in-process recording of http(s) requests and responses
+
 ## How it works
 
 `@gr2m/http-interceptor` is using [`@gr2m/net-interceptor`](https://github.com/gr2m/node-net-interceptor/#readme) to intercept TCP/TLS connections, and to permit to bypass the interception.
